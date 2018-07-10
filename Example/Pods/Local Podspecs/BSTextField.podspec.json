@@ -1,0 +1,22 @@
+{
+  "name": "BSTextField",
+  "version": "0.1.0",
+  "summary": "A short description of BSTextField.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/ozcanzaferayan/BSTextField",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "ozcanzaferayan": "ozcanzaferayan@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/ozcanzaferayan/BSTextField.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "BSTextField/Classes/**/*"
+}

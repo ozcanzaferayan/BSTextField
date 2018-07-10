@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'BSTextField'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of BSTextField.'
+  s.summary          = 'Class name based Bootstrap button design implementation for Swift/iOS.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,16 +17,14 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  s.description      = 'Given button class name, button can redesign itself with that class accordingly to Bootstrap''s definition'
 
   s.homepage         = 'https://github.com/ozcanzaferayan/BSTextField'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'ozcanzaferayan' => 'ozcanzaferayan@gmail.com' }
   s.source           = { :git => 'https://github.com/ozcanzaferayan/BSTextField.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.social_media_url = 'https://twitter.com/zaferayan'
 
   s.ios.deployment_target = '8.0'
 
