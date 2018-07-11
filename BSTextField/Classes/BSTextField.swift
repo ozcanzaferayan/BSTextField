@@ -22,12 +22,15 @@ class BSTextField: UITextField {
             backgroundColor = UIColor(cgColor: textFieldStyle.backgroundColor)
             layer.borderColor = textFieldStyle.borderColor
             textColor = textFieldStyle.titleColor
-            attributedPlaceholder = NSAttributedString(string: placeholder!, attributes: [NSAttributedStringKey.foregroundColor: textFieldStyle.titleColor.withAlphaComponent(initPlaceholderOpacity)])
+            attributedPlaceholder = placeholder != nil
+                ? NSAttributedString(string: placeholder!, attributes: [NSAttributedStringKey.foregroundColor: textFieldStyle.titleColor.withAlphaComponent(initPlaceholderOpacity)])
+                : attributedPlaceholder
             tintColor = textFieldStyle.titleColor
             borderStyle = .roundedRect
             layer.cornerRadius = initCornerRadius
             layer.borderWidth = borderWidth
             alpha = isEnabled ? 1 : 0.75
+            clearButtonMode = .whileEditing
         }
     }
     
