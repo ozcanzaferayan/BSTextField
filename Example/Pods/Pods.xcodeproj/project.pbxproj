@@ -146,12 +146,12 @@
 		DB7A106243AC974FC7EBEB00B506C786 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 445B5D0FA45396EF0BB8E92D62546F80 /* FBSnapshotTestCasePlatform.m */; };
 		DF026F6F406A4FB6CEA63B0A4B9E27DD /* AllPass.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D3B0C900E8CAAD1E3FD246B3B4F65A /* AllPass.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		DFBE5326E965BC813AF62E1115A39721 /* Pods-BSTextField_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 735FB3A544ED8E84C5E3DCBF906E0806 /* Pods-BSTextField_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DFC514B220F567E500C74B83 /* TextFieldType.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC514A920F567E500C74B83 /* TextFieldType.swift */; };
-		DFC514B320F567E500C74B83 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC514AA20F567E500C74B83 /* Colors.swift */; };
-		DFC514B420F567E500C74B83 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC514AC20F567E500C74B83 /* UIColor.swift */; };
-		DFC514B520F567E500C74B83 /* TextFieldStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC514AE20F567E500C74B83 /* TextFieldStyle.swift */; };
-		DFC514B620F567E500C74B83 /* ClassNameUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC514B020F567E500C74B83 /* ClassNameUtil.swift */; };
-		DFC514B720F567E500C74B83 /* TextFieldStyleUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC514B120F567E500C74B83 /* TextFieldStyleUtil.swift */; };
+		DFC514CD20F5F2EE00C74B83 /* TextFieldType.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC514C320F5F2EE00C74B83 /* TextFieldType.swift */; };
+		DFC514CE20F5F2EE00C74B83 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC514C420F5F2EE00C74B83 /* Colors.swift */; };
+		DFC514CF20F5F2EE00C74B83 /* TextFieldStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC514C620F5F2EE00C74B83 /* TextFieldStyle.swift */; };
+		DFC514D020F5F2EE00C74B83 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC514C820F5F2EE00C74B83 /* UIColor.swift */; };
+		DFC514D120F5F2EE00C74B83 /* ClassNameUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC514CA20F5F2EE00C74B83 /* ClassNameUtil.swift */; };
+		DFC514D220F5F2EE00C74B83 /* TextFieldStyleUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC514CB20F5F2EE00C74B83 /* TextFieldStyleUtil.swift */; };
 		E0C468278375B960443FDFE061516FA4 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7C5092E7187F4E8B59FED95067511E3 /* XCTest.framework */; };
 		E642BE454B139C3369E599083C12EC65 /* ExampleHooks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68BEAADD3D502C3823DD093E5EE7E265 /* ExampleHooks.swift */; };
 		E98E98F6BFD707D6E9BCBA194D025C0B /* BSTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7220C913025FC24A64E08999D135A0B /* BSTextField.swift */; };
@@ -169,7 +169,6 @@
 		F50D7F3963E381BDD2DEFF8E98859000 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F444F5EA2EB93D7C5B122BB1CE27F42 /* Foundation.framework */; };
 		F9649DD59BAEE88C6864EEFE73ECA88C /* AdapterProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F954044A82CFADBC52547F095D9282 /* AdapterProtocols.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		FB433A84B0A557CD5E5948A8B6705024 /* DSL.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F610D358CCBE4031DC469CFEBA0EC88 /* DSL.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FFBDBE7C0555C66B701E24CA0A5E0B04 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = C574A31780704AFF1E86F24EC49684C6 /* ReplaceMe.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -393,7 +392,6 @@
 		C3612030462D107BF373B18930C54AA8 /* HaveValidSnapshot.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HaveValidSnapshot.swift; sourceTree = "<group>"; };
 		C369CE793024AD22D67676510BAF74BB /* World+DSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "World+DSL.swift"; path = "Sources/Quick/DSL/World+DSL.swift"; sourceTree = "<group>"; };
 		C3D41F703F26B177ACAAD1FFB6C0AAE1 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
-		C574A31780704AFF1E86F24EC49684C6 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = BSTextField/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		C7C5092E7187F4E8B59FED95067511E3 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		C974A1781F6F7BF36547BB775A24A502 /* Pods-BSTextField_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BSTextField_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		CAF3D1AECDF53E3723EF1CB7BEC461CC /* NSString+C99ExtendedIdentifier.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSString+C99ExtendedIdentifier.swift"; path = "Sources/Quick/NSString+C99ExtendedIdentifier.swift"; sourceTree = "<group>"; };
@@ -407,12 +405,12 @@
 		DB3B9455664D13744657268D75172AD1 /* Closures.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Closures.swift; path = Sources/Quick/Hooks/Closures.swift; sourceTree = "<group>"; };
 		DC05FFCDBC43073BECB34E4AFEF85F02 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDFBAF22E15C973ED8D2968C738E484A /* Nimble-Snapshots-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Nimble-Snapshots-dummy.m"; sourceTree = "<group>"; };
-		DFC514A920F567E500C74B83 /* TextFieldType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldType.swift; sourceTree = "<group>"; };
-		DFC514AA20F567E500C74B83 /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
-		DFC514AC20F567E500C74B83 /* UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
-		DFC514AE20F567E500C74B83 /* TextFieldStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldStyle.swift; sourceTree = "<group>"; };
-		DFC514B020F567E500C74B83 /* ClassNameUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassNameUtil.swift; sourceTree = "<group>"; };
-		DFC514B120F567E500C74B83 /* TextFieldStyleUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldStyleUtil.swift; sourceTree = "<group>"; };
+		DFC514C320F5F2EE00C74B83 /* TextFieldType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldType.swift; sourceTree = "<group>"; };
+		DFC514C420F5F2EE00C74B83 /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		DFC514C620F5F2EE00C74B83 /* TextFieldStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldStyle.swift; sourceTree = "<group>"; };
+		DFC514C820F5F2EE00C74B83 /* UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		DFC514CA20F5F2EE00C74B83 /* ClassNameUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassNameUtil.swift; sourceTree = "<group>"; };
+		DFC514CB20F5F2EE00C74B83 /* TextFieldStyleUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldStyleUtil.swift; sourceTree = "<group>"; };
 		E286B9A3CA7FCE64AA267CBEF4682D51 /* ThrowError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ThrowError.swift; path = Sources/Nimble/Matchers/ThrowError.swift; sourceTree = "<group>"; };
 		E355C5A782ECEF1AA80A1705F51999F2 /* Pods-BSTextField_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BSTextField_Tests.modulemap"; sourceTree = "<group>"; };
 		E43274BDDF946146643879824D00EC31 /* NMBStringify.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NMBStringify.h; path = Sources/NimbleObjectiveC/NMBStringify.h; sourceTree = "<group>"; };
@@ -506,12 +504,11 @@
 		0C67A9B9E475BBBC455B5259C47CD824 /* BSTextField */ = {
 			isa = PBXGroup;
 			children = (
-				DFC514A820F567E500C74B83 /* enums */,
-				DFC514AB20F567E500C74B83 /* extensions */,
-				DFC514AD20F567E500C74B83 /* models */,
-				DFC514AF20F567E500C74B83 /* utils */,
+				DFC514C220F5F2EE00C74B83 /* enums */,
+				DFC514C720F5F2EE00C74B83 /* extensions */,
+				DFC514C520F5F2EE00C74B83 /* models */,
+				DFC514C920F5F2EE00C74B83 /* utils */,
 				E7220C913025FC24A64E08999D135A0B /* BSTextField.swift */,
-				C574A31780704AFF1E86F24EC49684C6 /* ReplaceMe.swift */,
 				AB3ED7958B52C530067C9A1C2592A97D /* Pod */,
 				0EA00BFC2416EAFD2C11CB29E79E1152 /* Support Files */,
 			);
@@ -813,38 +810,42 @@
 			name = Pod;
 			sourceTree = "<group>";
 		};
-		DFC514A820F567E500C74B83 /* enums */ = {
+		DFC514C220F5F2EE00C74B83 /* enums */ = {
 			isa = PBXGroup;
 			children = (
-				DFC514A920F567E500C74B83 /* TextFieldType.swift */,
-				DFC514AA20F567E500C74B83 /* Colors.swift */,
+				DFC514C320F5F2EE00C74B83 /* TextFieldType.swift */,
+				DFC514C420F5F2EE00C74B83 /* Colors.swift */,
 			);
-			path = enums;
+			name = enums;
+			path = BSTextField/Classes/enums;
 			sourceTree = "<group>";
 		};
-		DFC514AB20F567E500C74B83 /* extensions */ = {
+		DFC514C520F5F2EE00C74B83 /* models */ = {
 			isa = PBXGroup;
 			children = (
-				DFC514AC20F567E500C74B83 /* UIColor.swift */,
+				DFC514C620F5F2EE00C74B83 /* TextFieldStyle.swift */,
 			);
-			path = extensions;
+			name = models;
+			path = BSTextField/Classes/models;
 			sourceTree = "<group>";
 		};
-		DFC514AD20F567E500C74B83 /* models */ = {
+		DFC514C720F5F2EE00C74B83 /* extensions */ = {
 			isa = PBXGroup;
 			children = (
-				DFC514AE20F567E500C74B83 /* TextFieldStyle.swift */,
+				DFC514C820F5F2EE00C74B83 /* UIColor.swift */,
 			);
-			path = models;
+			name = extensions;
+			path = BSTextField/Classes/extensions;
 			sourceTree = "<group>";
 		};
-		DFC514AF20F567E500C74B83 /* utils */ = {
+		DFC514C920F5F2EE00C74B83 /* utils */ = {
 			isa = PBXGroup;
 			children = (
-				DFC514B020F567E500C74B83 /* ClassNameUtil.swift */,
-				DFC514B120F567E500C74B83 /* TextFieldStyleUtil.swift */,
+				DFC514CA20F5F2EE00C74B83 /* ClassNameUtil.swift */,
+				DFC514CB20F5F2EE00C74B83 /* TextFieldStyleUtil.swift */,
 			);
-			path = utils;
+			name = utils;
+			path = BSTextField/Classes/utils;
 			sourceTree = "<group>";
 		};
 		E57B0B627473253F6AB1D52E7E2088D9 /* SwiftSupport */ = {
@@ -1302,15 +1303,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DFC514CE20F5F2EE00C74B83 /* Colors.swift in Sources */,
 				EA32D1ADE0489A3A225650D65B502B0D /* BSTextField-dummy.m in Sources */,
-				DFC514B420F567E500C74B83 /* UIColor.swift in Sources */,
-				DFC514B320F567E500C74B83 /* Colors.swift in Sources */,
-				DFC514B620F567E500C74B83 /* ClassNameUtil.swift in Sources */,
-				DFC514B220F567E500C74B83 /* TextFieldType.swift in Sources */,
-				DFC514B720F567E500C74B83 /* TextFieldStyleUtil.swift in Sources */,
+				DFC514D120F5F2EE00C74B83 /* ClassNameUtil.swift in Sources */,
 				E98E98F6BFD707D6E9BCBA194D025C0B /* BSTextField.swift in Sources */,
-				FFBDBE7C0555C66B701E24CA0A5E0B04 /* ReplaceMe.swift in Sources */,
-				DFC514B520F567E500C74B83 /* TextFieldStyle.swift in Sources */,
+				DFC514D220F5F2EE00C74B83 /* TextFieldStyleUtil.swift in Sources */,
+				DFC514CD20F5F2EE00C74B83 /* TextFieldType.swift in Sources */,
+				DFC514D020F5F2EE00C74B83 /* UIColor.swift in Sources */,
+				DFC514CF20F5F2EE00C74B83 /* TextFieldStyle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
